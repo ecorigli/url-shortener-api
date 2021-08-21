@@ -1,0 +1,27 @@
+{
+  "name": "url-shortener-api",
+  "version": "1.0.0",
+  "description": "Url Shortener",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "dev": "nodemon ./src/app.js",
+    "lint": "eslint"
+  },
+  "author": "Esteban Corigliano",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-http-context": "^1.2.4",
+    "dotenv": "^8.2.0",
+    "body-parser": "^1.19.0",
+    "data-store": "^4.0.3",
+    "http-errors": "^1.7.3",
+    "node-fetch": "^2.6.0",
+    "shortid": "^2.2.16",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express-validator": "^6.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.12"
+  }
+}
