@@ -24,6 +24,6 @@
 	}
 
 ## http://localhost:8081/auth/authenticatedUser
-{	
-    "id": "6120172eea6d113d44236731"
-}
+	{	
+	    "id": "6120172eea6d113d44236731"
+	}
