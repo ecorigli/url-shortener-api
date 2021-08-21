@@ -1,22 +1,22 @@
-"# url-shortener-api" 
+# url-shortener-api
 
->1) http://localhost:8081/domain
+## http://localhost:8081/domain
 
->2) http://localhost:8081/xbjpC5qZh
+## http://localhost:8081/xbjpC5qZh
 
->// Url duplicada
->3) http://localhost:8081/shorten
+// Url duplicada
+## http://localhost:8081/shorten
 	{
 		"url": "https://tiendamia.com"
 	}
 
->// Url no existente
->4) http://localhost:8081/shorten
+// Url no existente
+## http://localhost:8081/shorten
 	{
 		"url": "https://tienda-prueba7.com"
 	}
 	
->5) http://localhost:8081/auth/register
+## http://localhost:8081/auth/register
 
 {
     "name": "Esteban Corigliano",
@@ -25,7 +25,7 @@
 }
 
 
->6) http://localhost:8081/auth/login
+## http://localhost:8081/auth/login
 {
     "email": "fake@gmail.com",
     "password": "12345678"
@@ -33,9 +33,9 @@
 
 
 
->// Se agrega este endpoint para saber si un usuario esta autenticado para manejar la sesión
->// Id de mongo ////// no token jwt
->7) http://localhost:8081/auth/authenticatedUser
+// Se agrega este endpoint para saber si un usuario esta autenticado para manejar la sesión
+// Id de mongo ////// no token jwt
+## http://localhost:8081/auth/authenticatedUser
 {	
     "id": "6120172eea6d113d44236731"
 }
